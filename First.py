@@ -4,15 +4,14 @@ class Dhruvraj:
     print("a is : " + str(a))
     print("b is : " + str(b))
 
-    def __init__(self, name):
-        self.name = namegit
-        print(name)
-        print("Init Function is called!")
+    # def __init__(self, name):
+    #     self.name = name
+    #     print(name)
+    #     print("Init Function is called!")
 
-    def methodDhruv(i):
+    def methodDhruv(self,i):
         print("Dhruv is called" + i)
 
 
-d1 = Dhruvraj("Rathod")
-print(d1.name + "Raj")
-Dhruvraj.methodDhruv("Hi")
+d1 = Dhruvraj()
+d1.methodDhruv("Rathod")
